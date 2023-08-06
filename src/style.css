@@ -1,6 +1,8 @@
 /* color */
 .bg-primary {
-    background: #0F172A;
+    background: #00B98C;
+    /*
+    0F172A */
 }
 
 .bg-secondery {
@@ -8,21 +10,93 @@
 }
 
 .bg-accent {
-    background: #7477FF;
+    background: #ffdd42;
+    /*
+    202020 */
 }
 
 .text-accent {
-    color: #7477FF;
-} 
+    color: #1651C7;
+    /*
+    1651C7 */
+}
+
+.about-acc {
+	background: #EEF5F7;
+	color: #202020;
+}
+
+.hero-info{
+
+}
+
+.slick-prev {
+  margin-left: 40px;
+}
+
+.slick-next {
+  margin-right: 40px;
+}
+
+
+.imgGallery {
+  display: flex;
+  margin: 0 auto;
+  height: 40vh;
+  width: auto;
+  border-radius: 5%;
+}
+
+.imgProjects {
+  height: 300px;
+  width: auto;
+}
+
+.soundcloud {
+  font-size: 10px;
+  color: #cccccc;
+  line-break: anywhere;
+  word-break: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;
+}
+
+.soundcloudLink {
+  color: #cccccc;
+  text-decoration: none;
+}
+
 
 .mobile-nav {
     @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
 } 
+
+.para {
+  font-family: 'Courier New',cursive;
+}
 
 nav li a {
     @apply px-4 py-5 text-lg;
 }
 
 nav li a:hover {
-    color: #7477FF;
+    color: #1651C7;
+}
+
+/* hero */
+h1 {
+    font-family: 'Courier New', cursive;
+    line-height: 1;
+}
+
+h4 {
+    font-family: 'Courier New',cursive;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between {
+	background-image: 
 }
