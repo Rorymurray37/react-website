@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-website/static/css/main.cebe36bb.css",
-    "main.js": "/react-website/static/js/main.b0456f6e.js",
+    "main.css": "/react-website/static/css/main.29f0fa40.css",
+    "main.js": "/react-website/static/js/main.8c766c77.js",
     "static/media/atm.png": "/react-website/static/media/atm.9e02c9d4565f67a5a8ab.png",
     "static/media/LisbonView.jpg": "/react-website/static/media/LisbonView.1c1364acdfd5e186b591.jpg",
     "static/media/graduation_copy.jpg": "/react-website/static/media/graduation_copy.fff4d5fc1e31d4ee7051.jpg",
@@ -20,11 +20,11 @@
     "static/media/slick.ttf": "/react-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/react-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-website/index.html",
-    "main.cebe36bb.css.map": "/react-website/static/css/main.cebe36bb.css.map",
-    "main.b0456f6e.js.map": "/react-website/static/js/main.b0456f6e.js.map"
+    "main.29f0fa40.css.map": "/react-website/static/css/main.29f0fa40.css.map",
+    "main.8c766c77.js.map": "/react-website/static/js/main.8c766c77.js.map"
   },
   "entrypoints": [
-    "static/css/main.cebe36bb.css",
-    "static/js/main.b0456f6e.js"
+    "static/css/main.29f0fa40.css",
+    "static/js/main.8c766c77.js"
   ]
 }
