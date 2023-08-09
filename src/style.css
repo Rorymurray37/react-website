@@ -38,6 +38,12 @@
   margin-right: 40px;
 }
 
+.heroimg {
+  width: auto;
+  height: 50vh;
+  /* style={{ width: 450, height: 450}} */
+}
+
 
 .imgGallery {
   display: flex;
@@ -48,7 +54,7 @@
 }
 
 .imgProjects {
-  height: 300px;
+  height: 250px;
   width: auto;
 }
 
@@ -89,6 +95,13 @@ nav li a:hover {
 h1 {
     font-family: 'Courier New', cursive;
     line-height: 1;
+}
+
+h3 {
+
+    font-weight: bold;
+    font-size: 1.125rem; /* 18px  class="list-disc pl-5"*/
+    line-height: 1.75rem; /* 28px */
 }
 
 h4 {

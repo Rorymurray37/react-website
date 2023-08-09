@@ -13,7 +13,7 @@ const About = () => {
           <div className="p-5 about-acc rounded-2xl">
             <h4 className ="font-bold">Programming</h4>
             <p className="pb-5">
-              A interest and passion for coding in various lanuages built up from my time in college and coding in my own time.
+              An interest and passion for coding in various lanuages built up from my time in college and coding in my own time.
               Specifically I enjoy the areas of AI and web development.
             </p>
             <h4 className ="font-bold">Travelling</h4>
@@ -24,7 +24,7 @@ const About = () => {
             <h4 className ="font-bold">Sports</h4>
             <p>
               Sports are a big part of my life.
-               I have played football since a kid and currently play both competitively and for fun. I also enjoy running in spare time aswell to keep fit.
+               I have played football since I was a kid and still currently play both competitively and for fun. I also enjoy running in spare time aswell to keep fit.
                Outside of those two I do occasionally skateboard and ski if at all possible.
             </p>
           </div>

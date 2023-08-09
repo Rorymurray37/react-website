@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState, useEffect} from "react";
 import GradImage from "../assets/graduation_copy.jpg";
 import SkiImage from "../assets/skiing_copy.jpg";
 import Lisbon from "../assets/Lisbon.JPG";
@@ -12,11 +12,22 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const Gallery = () => { 
-    const settings = {
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    const settingsDesktop = {
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
+      slidesToScroll: 1
+    };
+
+    const settingsMobile = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
       slidesToScroll: 1
     };
 
@@ -71,13 +82,40 @@ const Gallery = () => {
       }
     ];
 
+    useEffect(() => {
+      // Function to check if the viewport width indicates a mobile device
+      const checkIsMobile = () => {
+        const isMobileDevice = window.innerWidth <= 768; // You can adjust this threshold based on your design considerations for what constitutes a mobile device
+        setIsMobile(isMobileDevice);
+      };
+
+      // Initial check when the component mounts
+      checkIsMobile();
+
+      // Event listener for window resize to update the state if the device changes orientation
+      window.addEventListener('resize', checkIsMobile);
+
+      // Clean up the event listener when the component unmounts
+      return () => {
+        window.removeEventListener('resize', checkIsMobile);
+      };
+    }, []);
+
+    let settings;
+    if (isMobile) {
+      settings =  settingsMobile;
+    } else {
+      settings = settingsDesktop;
+    }
+
     return (
       <>
-        <section className="bg-primary text-white px-5 pb-32" id="about">
+        <section className="bg-primary text-white px-5 pb-" id="about">
           <div className="container mx-auto justify-center md:justify-between">
             <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[210px] border-indigo-600 pb-2">
               More of me </h2>
             <div className="container2 ">
+
               <Slider {...settings}>
                 {Images.map((item) => (
                   <div key={item.id}>
