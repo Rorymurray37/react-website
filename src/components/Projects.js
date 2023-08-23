@@ -39,13 +39,13 @@ const Projects = () => {
 
   return (
     <section className="bg-primary text-white px-5 pb-10" id="projects">
-      <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
+      <div className="container mx-auto justify-center md:justify-between">
         <div className="about-info mb-5">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
             Projects
           </h2>
 
-          <p className="pb-5 para">
+          <p className="pb-5">
             These are some of project some personal and some as part of my studies. Built with python, java, html.
           </p>
         </div>
@@ -53,7 +53,7 @@ const Projects = () => {
         <div className="about-img"></div>
       </div>
 
-      <div className="projects container mx-auto grid md:grid-cols-3 gap-10 p-5 about-acc rounded-2xl">
+      <div className="container mx-auto grid md:grid-cols-3 gap-10 p-5 about-acc rounded-2xl">
         {projects.map((project, i) => {
           return (
             <div className="relative" key={i}>

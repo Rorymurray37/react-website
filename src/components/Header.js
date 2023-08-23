@@ -10,8 +10,8 @@ const Header = () => {
   return (
     <header className="flex justify-between px-5 bg-primary py-2 text-black fixed w-full z-10 font-courier border-b-4 
       border-black">
-      <a href="/" className="logo text-2xl font-bold text-accent">
-        Rory
+      <a href="/" className="logo text-2xl font-bold text-accent para">
+        Rory Murray
       </a>
 
       {/* Desktop Nav */}
@@ -28,11 +28,6 @@ const Header = () => {
           </li>
           <li>
             <a href="/#contact">Contact</a>
-          </li>
-          <li>
-            <a href="#resume -link" target="_blank" without rel="noreferrer">
-              Resume
-            </a>
           </li>
         </ul>
       </nav>
@@ -53,9 +48,6 @@ const Header = () => {
           </li>
           <li>
             <a href="/#contact">Contact</a>
-          </li>
-          <li>
-            <a href="/#resume">Resume</a>
           </li>
         </ul>
       </nav>

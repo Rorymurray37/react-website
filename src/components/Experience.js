@@ -30,7 +30,7 @@ import {
           
           <Zoom>
             <BsFillBriefcaseFill className="mx-auto" size={70} />{" "}
-            <div className="p-5 about-acc rounded-2xl w-4/6 mx-auto mt-10">
+            <div className="p-5 about-acc rounded-2xl mx-auto mt-10">
               <h3 className ="text-2xl pb-2">Risk Model Engineer</h3>
               <p className="font-bold"> NIBC Bank (November 2021-Current)</p>
               <p className ="pb-2"><span role="img">📍</span>  Den Haag, Netherlands</p>
@@ -44,7 +44,7 @@ import {
             </div>
           </Zoom>
           <Zoom>
-            <div className="p-5 about-acc rounded-2xl w-4/6 mx-auto mt-10">
+            <div className="p-5 about-acc rounded-2xl mx-auto mt-10">
               <h3 className ="text-2xl">Software Developer Intern</h3>
               <p className="font-bold"> Irish Life (Jan - August 2020)</p>
               <p className ="pb-2"><span role="img">📍</span>  Dublin, Ireland</p>
@@ -60,7 +60,7 @@ import {
           <Zoom>
             <FaUniversity className="mx-auto mt-10" size={70} />{" "}
 
-            <div className="p-5 about-acc rounded-2xl w-4/6 mx-auto mt-10">
+            <div className="p-5 about-acc rounded-2xl mx-auto mt-10">
               <h3 className ="text-2xl">Bachelor of Computer Science</h3>
               <p className="font-bold">University of Galway (September 2017 - September 2021)</p>
               <p className ="pb-2"><span role="img">📍</span>  Galway, Ireland</p>

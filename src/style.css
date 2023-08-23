@@ -16,7 +16,7 @@
 }
 
 .text-accent {
-    color: #1651C7;
+    color: #3949AB;
     /*
     1651C7 */
 }
@@ -90,6 +90,11 @@ nav li a {
 nav li a:hover {
     color: #1651C7;
 }
+
+.links:hover {
+    color: #1651C7;
+}
+
 
 /* hero */
 h1 {
