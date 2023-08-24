@@ -14,12 +14,12 @@ const About = () => {
             <h4 className ="font-bold">Programming</h4>
             <p className="pb-5">
               An interest and passion for coding in various lanuages built up from my time in college and coding in my own time.
-              Specifically I enjoy the areas of AI and web development.
+              Specifically I enjoy the areas of AI, data science modelling and web development.
             </p>
             <h4 className ="font-bold">Travelling</h4>
             <p className="pb-5">
               When I have the time I love to travel and see new places with my friends or family.
-               Most summers I would try and head somewhere new and explore the area.
+               Most summers I try to head somewhere new to explore the area and the culture.
             </p>
             <h4 className ="font-bold">Sports</h4>
             <p>
