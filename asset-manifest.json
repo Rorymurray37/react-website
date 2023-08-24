@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c35164dc.css",
-    "main.js": "/static/js/main.234b911d.js",
+    "main.js": "/static/js/main.5047be90.js",
     "static/media/atm.png": "/static/media/atm.9e02c9d4565f67a5a8ab.png",
     "static/media/LisbonView.jpg": "/static/media/LisbonView.1c1364acdfd5e186b591.jpg",
     "static/media/graduation_copy.jpg": "/static/media/graduation_copy.fff4d5fc1e31d4ee7051.jpg",
@@ -21,10 +21,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.c35164dc.css.map": "/static/css/main.c35164dc.css.map",
-    "main.234b911d.js.map": "/static/js/main.234b911d.js.map"
+    "main.5047be90.js.map": "/static/js/main.5047be90.js.map"
   },
   "entrypoints": [
     "static/css/main.c35164dc.css",
-    "static/js/main.234b911d.js"
+    "static/js/main.5047be90.js"
   ]
 }
